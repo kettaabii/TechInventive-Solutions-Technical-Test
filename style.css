@@ -1,0 +1,59 @@
+*{
+padding:0px;
+margin:0px;
+box-size:border-box;
+text-decoration: none;
+}
+
+.menu {
+display: flex;
+  justify-content: space-between;
+    padding: 10px 50px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+.menu > button > a {
+
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 17px;
+}
+.menu > button{
+background:DodgerBlue;
+padding: 7px 10px;
+border:none;
+border-radius:8px;
+}
+.menu >h1{
+font-family:arial;
+color:#545454;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-33%, -50%);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 40px;
+  text-align: center;
+  font-family:arial;
+  }
+.image-container >form{
+position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-33%, -50%);
+  size:150%;
+  placeholder="Your Email";
+ }
+
+You can adjust the properties of the .overlay-text class as needed to achieve the desired positio
